@@ -143,23 +143,25 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Additional Team Members */}
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Team Member 2 */}
-            <div className="text-center">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-6">
-                <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                  <Users className="h-20 w-20 text-gray-400" />
-                </div>
+          {/* Richard Knapp - Large Format */}
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:order-1">
+              <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
+                <Users className="h-24 w-24 text-gray-400" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Richard Knapp</h3>
+            </div>
+            <div className="text-center md:text-left order-2 md:order-2">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Richard Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
-                [Add description about this team member's background, experience, and role at Knapp Real Estate Group.]
+                [Add description about Richard's background, experience, and role at Knapp Real Estate Group.]
               </p>
             </div>
+          </div>
 
-            {/* Team Member 3 */}
+          {/* Gabby & GerriLyne - Smaller Format */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Gabby Knapp */}
             <div className="text-center">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-6">
                 <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
@@ -169,11 +171,11 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Gabby Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
-                [Add description about this team member's background, experience, and role at Knapp Real Estate Group.]
+                [Add description about Gabby's background, experience, and role at Knapp Real Estate Group.]
               </p>
             </div>
 
-            {/* Team Member 4 */}
+            {/* GerriLyne Knapp */}
             <div className="text-center">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-6">
                 <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
@@ -183,7 +185,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">GerriLyne Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
-                [Add description about this team member's background, experience, and role at Knapp Real Estate Group.]
+                [Add description about GerriLyne's background, experience, and role at Knapp Real Estate Group.]
               </p>
             </div>
           </div>
