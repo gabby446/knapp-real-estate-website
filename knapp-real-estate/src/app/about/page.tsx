@@ -152,7 +152,7 @@ export default function AboutPage() {
                   <Users className="h-20 w-20 text-gray-400" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">[Team Member Name]</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Richard Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
                 [Add description about this team member's background, experience, and role at Knapp Real Estate Group.]
@@ -166,7 +166,7 @@ export default function AboutPage() {
                   <Users className="h-20 w-20 text-gray-400" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">[Team Member Name]</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Gabby Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
                 [Add description about this team member's background, experience, and role at Knapp Real Estate Group.]
@@ -180,7 +180,7 @@ export default function AboutPage() {
                   <Users className="h-20 w-20 text-gray-400" />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">[Team Member Name]</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">GerriLyne Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
                 [Add description about this team member's background, experience, and role at Knapp Real Estate Group.]
