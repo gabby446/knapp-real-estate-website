@@ -145,17 +145,17 @@ export default function AboutPage() {
 
           {/* Richard Knapp - Large Format */}
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden order-1 md:order-1">
-              <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                <Users className="h-24 w-24 text-gray-400" />
-              </div>
-            </div>
-            <div className="text-center md:text-left order-2 md:order-2">
+            <div className="text-center md:text-left">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Richard Knapp</h3>
               <p className="text-lg text-royal-blue mb-4">[Title/Position]</p>
               <p className="text-gray-600">
                 [Add description about Richard's background, experience, and role at Knapp Real Estate Group.]
               </p>
+            </div>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
+                <Users className="h-24 w-24 text-gray-400" />
+              </div>
             </div>
           </div>
 
