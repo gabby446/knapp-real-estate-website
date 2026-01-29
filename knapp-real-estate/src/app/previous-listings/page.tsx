@@ -10,23 +10,34 @@ export default function PreviousListingsPage() {
       id: 1,
       name: "County Road 5",
       location: "Hereford, Texas",
-      completedDate: "November 2024",
-      totalLots: 24,
-      soldLots: 24,
-      avgSalePrice: "$10,500",
+      completedDate: "September 2025",
+      totalLots: 34,
+      soldLots: 34,
+      avgSalePrice: "$33,000",
       description: "Recently completed residential subdivision in Hereford with all lots successfully sold. Excellent returns for our satisfied lot buyers.",
-      image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=400&fit=crop"
+      image: "/images/hero-aerial-1.jpg"
     },
     {
       id: 2,
       name: "County Road 310",
-      location: "Canyon, Texas",
-      completedDate: "March 2021",
-      totalLots: 28,
-      soldLots: 28,
-      avgSalePrice: "$9,500",
+      location: "Midland, Texas",
+      completedDate: "October 2024",
+      totalLots: 65,
+      soldLots: 65,
+      avgSalePrice: "$25,000",
       description: "Successfully completed residential subdivision with all lots sold. Great returns for our partners.",
       image: "/images/county-road-310.jpg"
+    },
+    {
+      id: 3,
+      name: "Osage Street 321",
+      location: "Canyon, Texas",
+      completedDate: "January 2026",
+      totalLots: 32,
+      soldLots: 32,
+      avgSalePrice: "$64,999",
+      description: "Quality residential lots in desirable Canyon location. All utilities available with road access. All lots successfully sold.",
+      image: "/images/osage-street-3.jpg"
     }
   ]
 
@@ -57,7 +68,7 @@ export default function PreviousListingsPage() {
               <div className="text-lg text-gray-600">Equity Multiple</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-6xl font-bold text-royal-blue mb-2">18</div>
+              <div className="text-4xl md:text-6xl font-bold text-royal-blue mb-2">12</div>
               <div className="text-lg text-gray-600">Month Avg Timeline</div>
             </div>
             <div className="text-center">
@@ -205,7 +216,7 @@ export default function PreviousListingsPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white hover:bg-white hover:text-royal-blue text-lg px-8 py-3 text-[#1f8fff]"
+                className="border-white hover:bg-white hover:text-royal-blue text-lg px-8 py-3 text-white"
               >
                 Contact Us
               </Button>
@@ -224,9 +235,9 @@ export default function PreviousListingsPage() {
               </div>
               <p className="text-gray-300 mb-4">Where your land ownership journey begins!</p>
               <p className="text-gray-300">
-                📧 jknapp@knappregroup.com<br />
-                📞 (512) 212-6737<br />
-                📍 Texas
+                jknapp@knappregroup.com<br />
+                (512) 924-5095<br />
+                Texas
               </p>
             </div>
             <div>
@@ -235,7 +246,6 @@ export default function PreviousListingsPage() {
                 <li><a href="/about" className="text-gray-300 hover:text-white">About</a></li>
                 <li><a href="/current-listings" className="text-gray-300 hover:text-white">Current Listings</a></li>
                 <li><a href="/previous-listings" className="text-gray-300 hover:text-white">Previous Listings</a></li>
-                <li><a href="/testimonials" className="text-gray-300 hover:text-white">Testimonials</a></li>
                 <li><a href="/faq" className="text-gray-300 hover:text-white">FAQ</a></li>
               </ul>
             </div>
