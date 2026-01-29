@@ -37,11 +37,9 @@ export function Navigation() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center group">
-              <img
-                src="/images/logo.png"
-                alt="Knapp Real Estate Group"
-                className="h-20 md:h-28 lg:h-32 w-auto transition-transform duration-300 group-hover:scale-105"
-              />
+              <span className={`text-2xl md:text-3xl font-heading font-bold transition-colors duration-300 ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
+                Knapp Real Estate Group
+              </span>
             </Link>
           </div>
 
