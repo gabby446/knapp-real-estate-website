@@ -1,4 +1,5 @@
 "use client"
+// Build trigger: 2026-01-29-rebuild
 
 import { Navigation } from "@/components/Navigation"
 import { Button } from "@/components/ui/button"
