@@ -42,11 +42,11 @@ function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const images = [
-    "/images/county-road-160-1.jpg",
-    "/images/county-road-160-2.jpg",
-    "/images/county-road-160-3.jpg",
-    "/images/hero-carousel-4.jpg",
-    "/images/hero-carousel-5.jpg"
+    "/images/hero-aerial-1.jpg",
+    "/images/hero-aerial-2.jpg",
+    "/images/hero-aerial-3.jpg",
+    "/images/county-road-160-aerial-1.jpg",
+    "/images/county-road-160-aerial-2.jpg"
   ]
 
   useEffect(() => {
@@ -219,10 +219,10 @@ export default function HomePage() {
   useScrollAnimation()
 
   const projectImages = [
-    "/images/county-road-160-1.jpg",
-    "/images/county-road-160-2.jpg",
-    "/images/county-road-160-3.jpg",
-    "/images/county-road-160-4.jpg"
+    "/images/county-road-160-aerial-1.jpg",
+    "/images/county-road-160-aerial-2.jpg",
+    "/images/county-road-160-construction.jpg",
+    "/images/county-road-160-5.jpg"
   ]
 
   return (
