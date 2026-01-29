@@ -1,5 +1,4 @@
 "use client"
-// Build trigger: 2026-01-29-fix-images
 
 import { Navigation } from "@/components/Navigation"
 import { Button } from "@/components/ui/button"
@@ -80,9 +79,10 @@ export default function CurrentListingsPage() {
       monthlyPayment: "$670 - $1,750",
       description: "Premium residential lots in fast-growing Midland area. Close to major employment centers with excellent access to highways and amenities.",
       images: [
-        "/images/county-road-160-aerial-1.jpg",
-        "/images/county-road-160-aerial-2.jpg",
-        "/images/county-road-160-construction.jpg",
+        "/images/county-road-160-1.jpg",
+        "/images/county-road-160-2.jpg",
+        "/images/county-road-160-3.jpg",
+        "/images/county-road-160-4.jpg",
         "/images/county-road-160-5.jpg"
       ]
     },
@@ -98,9 +98,8 @@ export default function CurrentListingsPage() {
       monthlyPayment: "$750 - $1,250",
       description: "Spacious residential lots in growing Midland area. Great location near schools and shopping with easy highway access. Perfect for families looking to build their dream home.",
       images: [
-        "/images/hero-aerial-1.jpg",
-        "/images/hero-aerial-2.jpg",
-        "/images/hero-aerial-3.jpg"
+        "/images/solid-work-aerial-1.jpg",
+        "/images/solid-work-aerial-2.jpg"
       ]
     },
     {
@@ -115,11 +114,8 @@ export default function CurrentListingsPage() {
       monthlyPayment: "$750 - $950",
       description: "Affordable rural residential lots with stunning open views. Perfect for those seeking space and tranquility while remaining close to Midland's amenities and job market.",
       images: [
-        "/images/osage-street-1.jpg",
-        "/images/osage-street-2.jpg",
-        "/images/osage-street-3.jpg",
-        "/images/osage-street-4.jpg",
-        "/images/osage-street-5.jpg"
+        "/images/josiah-road.jpg",
+        "/images/josiah-utility.jpg"
       ]
     }
   ]
