@@ -1,7 +1,6 @@
 [build]
-  base = "knapp-real-estate"
-  command = "npm install && npm run build"
-  publish = "out"
+  command = "bun install && bun run build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
